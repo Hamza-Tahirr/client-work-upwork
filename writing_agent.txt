@@ -1,0 +1,25 @@
+"Welcome to our latest newsletter! In this issue, we focus on the exciting world of corporate commitments to carbon removal and emerging technologies.
+
+Table of Contents:
+1. Tech companies betting on carbon removal startups
+2. Google's pledge to support carbon removal solutions
+3. The Biden-Harris administration's new initiative
+4. Chevron's investment in carbon capture and removal technology
+5. JPMorgan Chase's deal with Climeworks
+
+Section 1: Tech companies are investing in carbon removal startups as the number of companies making net-zero commitments continues to grow. They are betting on emerging technologies to help meet their climate goals (Yahoo Finance, 2022).
+
+Section 2: Google has pledged to contract for $35M of carbon removal credits over the next 12 months, supporting the U.S. Department of Energy's new carbon removal initiative (Google, 2022).
+
+Section 3: The Biden-Harris administration has announced a new initiative to support technologies that remove carbon emissions directly from the atmosphere. This initiative supports the principles for high-integrity voluntary carbon markets (The White House, 2024).
+
+Section 4: Chevron New Energies announced a lead investment in ION Clean Energy, a company specializing in carbon capture and removal technology. This demonstrates the growing corporate interest in carbon removal technologies (Chevron, 2024).
+
+Section 5: JPMorgan Chase has signed a 9-year agreement with Climeworks, a leader in carbon dioxide removal through direct air capture. This deal is part of a broader effort by JPMorgan Chase to scale investment in emerging carbon removal technologies (JPMorgan Chase, 2023).
+
+References and Citations:
+1. Yahoo Finance (2022). Tech companies bet on carbon removal startups as AI tests climate goals. Retrieved from https://finance.yahoo.com/news/tech-companies-bet-on-carbon-removal-startups-as-ai-tests-climate-goals-100026858.html
+2. Google (2022). Pledge to support carbon removal solutions. Retrieved from https://blog.google/outreach-initiatives/sustainability/pledge-to-support-carbon-removal-solutions/
+3. The White House (2024). FACT SHEET: Biden-Harris Administration Announces New Principles for High-Integrity Voluntary Carbon Markets. Retrieved from https://www.whitehouse.gov/briefing-room/statements-releases/2024/05/28/fact-sheet-biden-harris-administration-announces-new-principles-for-high-integrity-voluntary-carbon-markets/
+4. Chevron (2024). Chevron invests in carbon capture and removal technology. Retrieved from https://www.chevron.com/newsroom/2024/q2/chevron-invests-in-carbon-capture-and-removal-technology-company-ion-clean-energy
+5. JPMorgan Chase (2023). JPMorgan Chase seeks to scale investment in emerging carbon removal technologies. Retrieved from https://www.jpmorganchase.com/newsroom/press-releases/2023/jpmorgan-chase-seeks-to-scale-investment-in-emerging-carbon-removal-technologies"
