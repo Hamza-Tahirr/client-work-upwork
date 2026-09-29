@@ -106,7 +106,7 @@ class NewsletterTasks:
               Ensure all data representations are accurate and easy to understand.
               {self.__tip_section()}
           """),
-            expected_output='Data visualizations and analysis to complement the articles. Name of the file: DataAnalysis.txt and save the charts as well as pdf',
+          expected_output='Data visualizations and analysis to complement the articles. Name of the file: DataAnalysis.txt and save the charts as well as pdf',
           agent=agent,
           tools=tools,
           context=context,
@@ -128,7 +128,7 @@ class NewsletterTasks:
           agent=agent,
           tools=tools,
           context=context,
-          output_file="logs/critque_agent.txt"
+          output_file="logs/critique_agent.txt"
       )
 
   def seo_optimization_task(self, agent, tools, context, user_input):

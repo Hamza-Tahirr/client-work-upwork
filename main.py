@@ -2,17 +2,18 @@ import warnings
 warnings.filterwarnings("ignore")
 
 import os
-from crewai import Agent, Task, Crew, Process
-from langchain_openai import ChatOpenAI
+from crewai import Crew
 from decouple import config
 
-from textwrap import dedent
 from agents import NewsletterAgents
 from tasks import NewsletterTasks
 from tools.file_write import FileWriteTool
 from tools.directory_write import DirWriteTool
 from crewai_tools import SerperDevTool, FileReadTool
 from tools.data_viz import DataVisualizationTool
+
+os.environ["OPENAI_API_KEY"] = config("OPENAI_API_KEY")
+os.environ["SERPER_API_KEY"] = config("SERPER_API_KEY")
 
 # Initialize tools
 web_search_tool = SerperDevTool()
@@ -30,9 +31,6 @@ data_analyst_tools = [file_read_tool, data_viz_tool, file_write_tool]
 critic_tools = [file_read_tool, web_search_tool, file_write_tool]
 seo_tools = [web_search_tool, file_read_tool, file_write_tool]
 sme_tools = [web_search_tool, file_read_tool, file_write_tool]
-
-os.environ["OPENAI_API_KEY"] = config("OPENAI_API_KEY")
-os.environ["SERPER_API_KEY"] = config("SERPER_API_KEY")
 
 class NewsletterCrew:
   def __init__(self, topic):
@@ -75,7 +73,7 @@ if __name__ == "__main__":
   topic = input("What climate-related topic would you like the newsletter to cover?\n")
   crew = NewsletterCrew(topic)
   result = crew.run()
-  
+
   print("\n\n########################")
   print("## Here is your newsletter crew run result:")
   print("########################\n")

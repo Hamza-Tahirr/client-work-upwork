@@ -1,6 +1,5 @@
 from crewai import Agent
 from textwrap import dedent
-from langchain_community.llms import OpenAI
 from langchain_openai import ChatOpenAI
 
 class NewsletterAgents:

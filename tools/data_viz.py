@@ -1,14 +1,14 @@
 from crewai_tools import tool
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
-from io import BytesIO
-import base64
 
 class DataVisualizationTool():
     @tool("Data Visualization")
-    def data_viz_tool(data):
-        """Useful to visualize data as charts/graphs"""        
+    def data_viz_tool(data: dict):
+        """Useful to visualize data as charts/graphs"""
         # Example data visualization
         df = pd.DataFrame(data)
 
@@ -19,7 +19,7 @@ class DataVisualizationTool():
         plt.ylabel('Value')
 
         # Save plot as a PDF file
-        file_path = 'charts.pdf' 
+        file_path = 'charts.pdf'
         plt.savefig(file_path, format='pdf')
         plt.close()
 
