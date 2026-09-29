@@ -1,1 +1,16 @@
 .env
+
+__pycache__/
+*.py[cod]
+
+venv/
+.venv/
+env/
+myenv/
+
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+
+charts.pdf

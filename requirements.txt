@@ -1,0 +1,13 @@
+crewai==0.76.2
+crewai-tools==0.13.4
+embedchain==0.1.128
+instructor==1.12.0
+litellm==1.80.0
+langchain==0.3.30
+langchain-community==0.3.31
+langchain-openai==0.2.14
+python-decouple==3.8
+pandas<3
+matplotlib
+seaborn
+setuptools<81
